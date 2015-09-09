@@ -15,10 +15,10 @@
         args.splice(eOptIdx, 1);
     }
 
-    var fromUnit = args[1];
+    var fromUnit = args[1].toLowerCase();
     var toUnit = 'ether';
     if (args.length > 2) {
-        toUnit = args[2];
+        toUnit = args[2].toLowerCase();
     }
 
     var invalidUnitErr = function (unit) {
