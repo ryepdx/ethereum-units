@@ -18,4 +18,4 @@ ethunits = require('ethereum-units');
 ethunits.convert(1, 'babbage', 'wei');
 ```
 
-Returns [BigDecimal](https://github.com/iriscouch/bigdecimal.js) objects.
+Returns [BigDecimal](https://github.com/iriscouch/bigdecimal.js) objects. Also exposes a `units` object mapping unit names to `BigDecimal` representations of how much wei each unit consists of.
