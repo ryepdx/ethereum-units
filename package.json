@@ -1,0 +1,30 @@
+{
+  "name": "ethereum-units",
+  "version": "0.0.1",
+  "description": "Ethereum unit conversion",
+  "main": "index.js",
+  "bin": {
+    "ethunits": "./bin/ethunits"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryepdx/ethereum-units.git"
+  },
+  "keywords": [
+    "ethereum",
+    "unit",
+    "conversion"
+  ],
+  "author": "Ryan Casey <ryepdx@gmail.com> (http://ryepdx.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryepdx/ethereum-units/issues"
+  },
+  "homepage": "https://github.com/ryepdx/etheruem-units#readme",
+  "dependencies": {
+    "bigdecimal": "^0.6.1"
+  }
+}
