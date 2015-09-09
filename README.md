@@ -13,3 +13,5 @@ $ ethunits 1 babbage wei
 ethunits = require('ethereum-units');
 ethunits.convert(1, 'babbage', 'wei');
 ```
+
+Returns [BigDecimal](https://github.com/iriscouch/bigdecimal.js) objects.
