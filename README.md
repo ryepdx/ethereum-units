@@ -6,6 +6,10 @@ A simple unit converter for Ethereum, because finney, szabo, and wei are less in
 $ npm install -g ethereum-units
 $ ethunits 1 babbage wei
 1000000 wei
+$ ethunits 1 wei
+0.000000000000000001 ether
+$ ethunits -e 1 wei
+1E-18 ether
 ```
 
 ## Node

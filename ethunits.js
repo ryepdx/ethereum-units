@@ -6,7 +6,7 @@
 
     if (args.length < 2) {
         console.log('ethunits ' + pkg.version);
-        console.log('Usage: ethunits <fromAmount> <from Unit> [toUnit=ether]');
+        console.log('Usage: ethunits [-e] <fromAmount> <from Unit> [toUnit=ether]');
         return;
     }
 
